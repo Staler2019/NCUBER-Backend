@@ -7,7 +7,7 @@ app = "ncuber-backend"
 primary_region = "nrt"
 
 [build]
-  builder = "paketobuildpacks/builder:base"
+  builder = "paketobuildpacks/builder:full"
 
 [env]
   PORT = "5000"
