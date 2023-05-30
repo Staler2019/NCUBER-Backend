@@ -6,7 +6,7 @@ from datetime import datetime
 
 app = flask.Flask(__name__)
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///uberdb_empty.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///uberdb.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config["JSON_AS_ASCII"] = False
 db = SQLAlchemy(app)
